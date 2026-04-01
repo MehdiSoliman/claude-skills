@@ -1,10 +1,17 @@
 {
   "version": 1,
   "skills": {
+    "create-prd": {
+      "source": "MehdiSoliman/claude-skills",
+      "sourceType": "github"
+    },
+    "analyze-codebase": {
+      "source": "MehdiSoliman/claude-skills",
+      "sourceType": "github"
+    },
     "check-implementation-readiness": {
-      "source": "bmad-code-org/BMAD-METHOD",
-      "sourceType": "github",
-      "computedHash": "57279e559ae5912ee3aeac418208c8995b2a44abc7779d5dd78b4063d7532596"
+      "source": "MehdiSoliman/claude-skills",
+      "sourceType": "github"
     }
   }
 }
