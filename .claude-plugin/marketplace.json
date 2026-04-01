@@ -7,8 +7,8 @@
   },
   "plugins": [
     {
-      "name": "PRD",
-      "description": "Create Product Requirements Documents from scratch",
+      "name": "Product Workflows",
+      "description": "Structured product and engineering workflows — codebase analysis, PRD creation, implementation readiness",
       "source": "./"
     }
   ]
