@@ -1,0 +1,22 @@
+# Project configuration for PRD skills
+# Copy this file to: your-project/_project/config.yaml
+
+# ── Who you are ──────────────────────────────────────────────
+user_name: "Your Name"
+
+# ── Project ──────────────────────────────────────────────────
+project_name: "My Project"
+
+# ── Languages ────────────────────────────────────────────────
+# Language Claude speaks to you during the session
+communication_language: "French"
+
+# Language used to write the output documents (PRD, etc.)
+document_output_language: "French"
+
+# ── Folder paths (relative to project root) ──────────────────
+# Where output documents are written (e.g. prd.md)
+planning_artifacts: "planning"
+
+# Where you put your input documents (brief, research, context)
+project_knowledge: "knowledge"

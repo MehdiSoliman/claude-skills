@@ -1,0 +1,15 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "local-skills",
+  "description": "Local custom skills marketplace",
+  "owner": {
+    "name": "User"
+  },
+  "plugins": [
+    {
+      "name": "PRD",
+      "description": "Create Product Requirements Documents from scratch",
+      "source": "./"
+    }
+  ]
+}
