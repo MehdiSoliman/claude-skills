@@ -106,7 +106,9 @@ The assessment found [number] issues requiring attention. Review the detailed re
 
 The implementation readiness workflow is now complete. The report contains all findings and recommendations for the user to consider.
 
-Implementation Readiness complete. Invoke the `help` skill.
+Implementation Readiness complete. Suggest next steps to the user:
+- If READY: proceed to UX Design, Technical Architecture, or Epic Breakdown
+- If NEEDS WORK / NOT READY: go back to `create-prd` to address the gaps found
 
 ---
 

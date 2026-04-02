@@ -62,7 +62,7 @@ Offer validation workflows to ensure PRD is ready for implementation:
 
 **Available Validation Workflows:**
 
-**Option 1: Check Implementation Readiness** (`skill:check-implementation-readiness`)
+**Option 1: Check Implementation Readiness**
 - Validates PRD has all information needed for development
 - Checks epic coverage completeness
 - Reviews UX alignment with requirements
@@ -71,6 +71,13 @@ Offer validation workflows to ensure PRD is ready for implementation:
 
 **When to use:** Before starting technical architecture or epic breakdown
 
+Present this as a menu option:
+"[R] Run implementation readiness check now"
+"[S] Skip for now — I'll proceed to architecture/UX/epics directly"
+
+- IF R: invoke the `check-implementation-readiness` skill
+- IF S: proceed to step 4
+
 **Option 2: Skip for Now**
 - Proceed directly to next workflows (architecture, UX, epics)
 - Validation can be done later if needed
@@ -78,7 +85,7 @@ Offer validation workflows to ensure PRD is ready for implementation:
 
 ### 4. Suggest Next Workflows
 
-PRD complete. Invoke the `help` skill.
+Suggest the natural next steps after a PRD:
 
 ### 5. Final Completion Confirmation
 
